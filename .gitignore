@@ -84,6 +84,7 @@ celerybeat-schedule
 # Environments
 .env
 .venv
+alex_site_venv/
 env/
 venv/
 ENV/

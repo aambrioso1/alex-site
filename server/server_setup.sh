@@ -69,7 +69,7 @@ apt install nginx
 # CAREFUL HERE. If you are using default, maybe skip this
 rm /etc/nginx/sites-enabled/default
 
-cp /apps/alex_site/server/pypi.nginx /etc/nginx/sites-enabled/pypi.nginx
+cp /apps/alex_site/server/alex_site.nginx /etc/nginx/sites-enabled/alex_site.nginx
 update-rc.d nginx enable
 service nginx restart
 

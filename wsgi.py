@@ -1,4 +1,4 @@
-from hello import app, main
+from flasky import app, main
 
 if __name__ == '__main__':
 	main()

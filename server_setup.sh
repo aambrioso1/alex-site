@@ -58,6 +58,8 @@ pip install -r requirements.txt
 
 # Copy and enable the daemon
 cp /apps/pypi-flask-app/server/pypi.service /etc/systemd/system/pypi.service
+cp /apps/erika_site/server/erika_site.service /etc/systemd/system/erika_site.service
+
 
 systemctl start pypi
 systemctl status pypi
